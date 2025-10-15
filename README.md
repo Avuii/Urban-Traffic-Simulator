@@ -14,17 +14,17 @@ The simulation is graph-based — every intersection or roundabout becomes a nod
 ---
 
 ## 🧩 Project Structure
-/Urban-Traffic-Simulator
+/Urban-Traffic-Simulator  
 | 
 ├── /bin/Debug/net9.0/
-| ├── city.geojson            # Input file exported from OpenStreetMap                  ✅
-| ├── roads.csv               # Cleaned and merged road data                            ✅     
-| ├── nodes.csv               # List of intersections and roundabouts                   ⏳
-| └── cars_simulation.csv     # Simulation output for each car                          ⏳
-|
-├── roads.cs                 # Reads .geojson, calculates distances, exports CSV files  ⏳
-├── main.cs                  # Builds the traffic graph and runs the simulation         ⏳
-└── results.cs               # Summarizes outcomes (accidents, congestion, speeds)      ⏳
+| ├── city.geojson            # Input file exported from OpenStreetMap                  ✅  
+| ├── roads.csv               # Cleaned and merged road data                            ✅       
+| ├── nodes.csv               # List of intersections and roundabouts                   ⏳  
+| └── cars_simulation.csv     # Simulation output for each car                          ⏳  
+|  
+├── roads.cs                 # Reads .geojson, calculates distances, exports CSV files  ⏳  
+├── main.cs                  # Builds the traffic graph and runs the simulation         ⏳  
+└── results.cs               # Summarizes outcomes (accidents, congestion, speeds)      ⏳  
 
 
 ---
