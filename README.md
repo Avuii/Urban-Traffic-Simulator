@@ -1,6 +1,6 @@
 # 🚗 Urban-Traffic-Simulator  
 **A C# city traffic simulation based on real road data from OpenStreetMap.**  
-*(Project in progress 🚧)* 
+*(Project in progress 🚧)*   
 ✅ = implemented  
 ⏳ = in progress 
 
